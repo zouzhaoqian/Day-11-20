@@ -1,0 +1,18 @@
+server:
+  port: 8020
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zou?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: ZOUZHAOQIAN
+
+
+jpa:
+  database: MySQL
+  show-sql: true
+  generate-ddl: true
+  hibernate:
+    ddl-auto: update
